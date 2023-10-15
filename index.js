@@ -1,5 +1,5 @@
 var mSend = document.getElementById("sender");
-var mReciv = "6281311924726";
+var mReciv = "6281546214716";
 var mSub = document.getElementById("subject");
 
 var instanceId = "2de49fb2cbf4e2044d0754f41195e87712eca58e";
