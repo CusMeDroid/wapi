@@ -2,7 +2,7 @@ var mSend = document.getElementById("sender");
 var mReciv = "6281311924726";
 var mSub = document.getElementById("subject");
 
-var instanceId = "2de49fb2cbf4e2044d0754f41195e87712eca58e";
+var instanceId = "YOUR_API_KEY";
 
 function btnSendWApi() {
   if (mSend < 0 || mReciv < 0 || mSub < 0) {
