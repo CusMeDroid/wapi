@@ -8,10 +8,12 @@
 
     <h1>WApi</h1>
     <form>
-      <label>Dari</label><br/>
-      <input type="tel" name="sender" id="sender" required><br/>
+      <label>Penerima</label><br/>
+      <input type="tel" name="recive" id="recive" placeholder="6212345678901" required><br/><br/>
+      <label>Url Gambar <span style="color: red;font-size: 12px;">(*Kosongkan jika ingin pesan saja)</span></label><br/>
+      <input type="text" name="gambar" id="gambar" placeholder="https://your.url/image.jpg"><br/><br/>
       <label>Pesan</label><br/>
-      <textarea name="subject" id="subject" required></textarea><br/>
+      <textarea name="subject" id="subject" placeholder="Anyting your want to text in here!" required></textarea><br/><br/>
       <button onclick="btnSendWApi()">Kirim</button>
     </form>
     <script type="text/javascript" src="index.js"></script>
